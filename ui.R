@@ -17,7 +17,8 @@ shinyUI(fluidPage(
         mainPanel(
             plotOutput("plot1"),
             h4("Predicted Ozone Level from the model (Red Circle):"),
-            textOutput("pred1")
+            textOutput("pred1"),
+            h6("A Quick Quide to Users: Enter the value of the Temperature with the above slider then press on Submit button")
         )
     )
 ))
